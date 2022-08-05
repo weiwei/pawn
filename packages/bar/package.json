@@ -1,0 +1,14 @@
+{
+  "name": "@pawn/bar",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest --config jest.config.ts",
+    "bundle": "webpack --config webpack.config.js",
+    "build": "tsc --build --verbose",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "@pawn/foo": "workspace:*"
+  }
+}

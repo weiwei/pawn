@@ -1,0 +1,7 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@pawn/foo': workspace:*
+
+dependencies:
+  '@pawn/foo': link:../foo
